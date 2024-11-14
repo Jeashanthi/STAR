@@ -11,9 +11,7 @@ function Header() {
       <div className="logo">
         <img src={logoURL} />
       </div>
-      <div className="searchicon">
-        <i className="fas fa-search search-icon"></i>
-      </div>
+
       <input
         type="text"
         className="xxx"
