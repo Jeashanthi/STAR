@@ -1,7 +1,5 @@
 import React from "react";
-
 import { Link } from "react-router-dom";
-import Login from "./Login";
 
 function Header() {
   const logoURL =
@@ -17,13 +15,17 @@ function Header() {
         className="xxx"
         placeholder="Search for Products, Brands and More"
       />
-      <Login />
-
-      <nav>
-        <Link to="/">Home</Link>
-
-        <Link to="/cart">Cart</Link>
-      </nav>
+      <ul className="navlist">
+        <li>
+          <a href="">Login</a>
+        </li>
+        <li>
+          <a href="">Cart</a>
+        </li>
+        <li>
+          <a href="">Become a Seller</a>
+        </li>
+      </ul>
     </header>
   );
 }
