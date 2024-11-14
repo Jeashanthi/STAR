@@ -9,7 +9,7 @@ function Header() {
   return (
     <header>
       <div className="logo">
-        <img src={logoURL} />
+        <img src={logoURL} alt="" />
       </div>
 
       <input

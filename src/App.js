@@ -9,6 +9,7 @@ function App() {
   return (
     <Router>
       <Header />
+      <Carousel />
       <Routes>
         <Route path="/carousel" element={<Carousel />} />
         <Route path="/productlist" element={<ProductList />} />
