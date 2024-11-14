@@ -1,13 +1,69 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: Arial, sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+header {
+
+  padding: 15px;
+  /* color: white; */
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+header .logo h1 {
+  margin: 0;
+}
+
+nav a {
+  /* color: white; */
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+.product-card {
+  border: 1px solid #ccc;
+  padding: 15px;
+  width: 250px;
+  text-align: center;
+}
+
+.cart {
+  padding: 20px;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.xxx
+{
+  background-color: lightsteelblue ;
+  width: 60%;  
+  margin-left: 30px;
+  margin-right: 30px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  padding: 15px;
+  padding-left: 35px;
+}
+.searchicon
+{
+  position: relative;
+}
+.searchicon i
+{
+  position: absolute;
+  left: 40px;
+  top: -7px;
+
 }
