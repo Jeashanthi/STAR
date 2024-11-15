@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+input[type="text"]
+{
+  width: 100%;
+  padding: 10px;
+  background-color: lightgray;
+  border-radius: 20px;
+
+}
+.icon
+{
+  font-size: 25px;
+  padding: 20px;
+}
